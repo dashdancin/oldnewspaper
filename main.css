@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
+}
+
+.publishing_house-imagotype img{
+    width: 4em;
+    height: 5em;
+    display: grid;
+    margin: auto;
+}
+
+.publishing_house-slogan {
+    size: 14em;
+    font-size: .6em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+
+.main_head {
+    text-align: center;
+    font-family: 'Limelight';
+}
+
+.main_sponsor-content {
+    background-color: blue;
+}
+
+.main_sponsor-imagotype {
+    background-color: green;
+}
+
+.main_sponsor-imagotype img{
+    width: 70px;
+    height: 70px;
+    display: grid;
+    margin: auto;
+}
+
+/* .Logo figure { */
+    /* background-color: green;
+    display: inline-block;
+    width: 30%;
+    height: 98%;
+}
+
+.Logo span {
+    background-color: bisque;
+    display: inline-block;
+    width: 60%;
+    height: 98%;
+    margin-left: 10px;
+}
+
+.Headline {
+    background-color: chartreuse;
+    height: 12.5vh;
+    margin: 5px;
+}
+
+.Titular {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.Titular h1 {
+    font-size: 1em;
+    margin: 1.5em auto auto auto;
+    display: flex;
+    justify-content: center;
+    border-top: solid black;
+}
+
+.Date {
+    display: block;
+    margin-top: 3em;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-bottom: solid black;
+}
+
+.Banner {
+    background-color: crimson;
+    height: 12.5vh;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Banner h3{
+    width: 80%;
+    height: 50%;
+    margin: 0;
+    display: grid;
+    grid-column: 1;
+    margin: auto;
+    text-align: center;
+    font-size: .8em;
+}
+
+.add_image {
+    width: 3.5em;
+    height: 3.5em;
+    position: relative;
+    left: 20%;
+    top:20%;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+} */
+
+.Navigation {
+    background-color: darkgoldenrod;
+    height: 6vh;
+    margin: 5px;
+}
+
+.Cinema_Marquee {
+    background-color: darkorchid;
+    height: 6vh;
+    margin: 5px;
+}
+
+main {
+    background-color: blue;
+    height: 70vh;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Sensationalist_Notes {
+    background-color: deeppink;
+    margin: 5px;
+}
+
+.Editorial {
+    background-color: deepskyblue;
+    margin: 5px;
+}
+
+.Glamour_News {
+    background-color: gold;
+    margin: 5px;
+}
