@@ -2,12 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: solid rgb(255, 66, 66) 1px;
+    
 }
 
+body {
+    width: 98vw;
+    height: 98vh;
+}
 
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
+    /* width: 94vw; */
+    margin: 1em;
 }
 
 .publishing_house-imagotype img{
@@ -15,6 +23,16 @@ header {
     height: 5em;
     display: grid;
     margin: auto;
+    display: inline-block;
+}
+
+.publishing_house-imagotype p {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: .6em;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1.5em;
 }
 
 .publishing_house-slogan {
@@ -28,129 +46,106 @@ header {
 .main_head {
     text-align: center;
     font-family: 'Limelight';
+    letter-spacing: .4em;
+    border-top: solid black;
+    border-bottom: solid black;
+    margin: auto;
 }
 
 .main_sponsor-content {
-    background-color: blue;
-}
-
-.main_sponsor-imagotype {
-    background-color: green;
-}
-
-.main_sponsor-imagotype img{
-    width: 70px;
-    height: 70px;
-    display: grid;
-    margin: auto;
-}
-
-/* .Logo figure { */
-    /* background-color: green;
-    display: inline-block;
-    width: 30%;
-    height: 98%;
-}
-
-.Logo span {
-    background-color: bisque;
-    display: inline-block;
-    width: 60%;
-    height: 98%;
-    margin-left: 10px;
-}
-
-.Headline {
-    background-color: chartreuse;
-    height: 12.5vh;
-    margin: 5px;
-}
-
-.Titular {
-    display: block;
-    margin: auto;
-    width: 80%;
-}
-
-.Titular h1 {
-    font-size: 1em;
-    margin: 1.5em auto auto auto;
-    display: flex;
-    justify-content: center;
-    border-top: solid black;
-}
-
-.Date {
-    display: block;
-    margin-top: 3em;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    border-bottom: solid black;
-}
-
-.Banner {
-    background-color: crimson;
-    height: 12.5vh;
-    margin: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.Banner h3{
-    width: 80%;
-    height: 50%;
-    margin: 0;
-    display: grid;
-    grid-column: 1;
-    margin: auto;
     text-align: center;
-    font-size: .8em;
+    font-size: .7em;
+    margin: auto;
 }
 
-.add_image {
-    width: 3.5em;
-    height: 3.5em;
-    position: relative;
-    left: 20%;
-    top:20%;
-    display: grid;
-    grid-column: 2;
-    grid-row: 1 / span 2;
-} */
+.main_sponsor-imagotype .telephone {
+    width: 60px;
+    height: 50px;
+    margin-top: 1em;
+}
 
 .Navigation {
-    background-color: darkgoldenrod;
-    height: 6vh;
-    margin: 5px;
+    width: 96vw;
+    height: 3vh;
+    margin: 1em;
+}
+
+.Navigation ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navigation ul li {
+    text-decoration: none;
+    display: inline-block;
 }
 
 .Cinema_Marquee {
-    background-color: darkorchid;
-    height: 6vh;
-    margin: 5px;
+    display: inline-block;
+    /* background-color: darkorchid; */
+    width: 94vw;
+    height: 7vh;
+    /* position: relative; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-left: 2.5vw;
+    margin-right: 1vw;
+}
+
+.movies {
+    width: 94vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Cinema_Marquee a:link, a:visited, a:active{
+    text-decoration: none;
+    font-size: .8em;
+    justify-content: space-around;
 }
 
 main {
-    background-color: blue;
-    height: 70vh;
+    height: 600px;
     margin: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 5fr 2fr;
+    position: absolute;
 }
 
 .Sensationalist_Notes {
-    background-color: deeppink;
     margin: 5px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.section_one {
+    display: grid;
+    grid-row-start: 1;
+}
+
+.section_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .section_one p {
+    width: 30px;
+} */
+
+.greatkelly {
+    width: 180px;
+    height: auto;
 }
 
 .Editorial {
-    background-color: deepskyblue;
     margin: 5px;
+    position: relative;
 }
 
 .Glamour_News {
-    background-color: gold;
     margin: 5px;
+    position: relative;
 }
