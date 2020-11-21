@@ -8,15 +8,22 @@
 
 body {
     width: 98vw;
-    height: 98vh;
+    height: 100%;
     z-index: 1;
+    background-color: turquoise;
+
 }
 
+main {
+    background-color: royalblue;
+}
+    
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
     /* width: 94vw; */
     margin: 1em;
+    background-color: yellow;
 }
 
 .publishing_house-imagotype img{
