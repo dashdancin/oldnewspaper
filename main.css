@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: solid rgb(255, 66, 66) 1px;
+    
+}
+
+body {
+    width: 98vw;
+    height: 100%;
+    z-index: 1;
+    background-color: turquoise;
+
+}
+
+main {
+    background-color: royalblue;
+}
+    
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
+    /* width: 94vw; */
+    margin: 1em;
+    background-color: yellow;
+}
+
+.publishing_house-imagotype img{
+    width: 4em;
+    height: 5em;
+    display: grid;
+    margin: auto;
+    display: inline-block;
+}
+
+.publishing_house-imagotype p {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: .6em;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1.5em;
+}
+
+.publishing_house-slogan {
+    size: 14em;
+    font-size: .6em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+
+.main_head {
+    text-align: center;
+    font-family: 'Limelight';
+    letter-spacing: .4em;
+    border-top: solid black;
+    border-bottom: solid black;
+    margin: auto;
+}
+
+.main_sponsor-content {
+    text-align: center;
+    font-size: .7em;
+    margin: auto;
+}
+
+.main_sponsor-imagotype .telephone {
+    width: 60px;
+    height: 50px;
+    margin-top: 1em;
+}
+
+.Navigation {
+    width: 96vw;
+    height: 3vh;
+    margin: 1em;
+}
+
+.Navigation ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navigation ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Cinema_Marquee {
+    display: inline-block;
+    /* background-color: darkorchid; */
+    width: 96vw;
+    height: 7vh;
+    /* position: relative; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin: 2vw;
+}
+
+.movies {
+    width: 94vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Cinema_Marquee a:link, a:visited, a:active{
+    text-decoration: none;
+    font-size: .8em;
+    justify-content: space-around;
+}
+
+main {
+    height: 600px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    position: absolute;
+}
+
+.Sensationalist_Notes {
+    margin: 5px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.section_one {
+    display: grid;
+    grid-row-start: 1;
+}
+
+.section_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .section_one p {
+    width: 30px;
+} */
+
+.greatkelly {
+    width: 180px;
+    height: auto;
+}
+
+.Editorial {
+    margin: 5px;
+    position: relative;
+}
+
+.Glamour_News {
+    margin: 5px;
+    position: relative;
+}
