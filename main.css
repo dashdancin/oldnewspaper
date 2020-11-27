@@ -11,44 +11,34 @@ body {
     z-index: 1;
 }
 
-main {
-    /* background-color: royalblue; */
-}
-    
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr 8fr 2fr 1fr;
-    /* width: 94vw; */
-    margin: 1em;
-    /* background-color: yellow; */
-    margin: 2em 0 2em 2em;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 2em 3em 2em 2em;
 }
 
-/* .publishing_house-imagotype {
-    display: inline;
-} */
-
-.publishing_house-imagotype p {
+.publishing_house-imagotype .imaginista {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: .6em;
+    font-size: .8em;
     font-weight: bold;
     float: left;
 }
 
 .publishing_house-imagotype img{
-    width: 4em;
-    height: 5em;
+    width: 5em;
+    height: 6.5em;
+    float: inline-start;
 }
 
 .publishing_house-slogan {
-    width: 100%;
     font-size: .6em;
     line-height: 1.5em;
     text-align: justify;
     text-justify: inter-word;
-    margin: auto auto 0 1em
-    /* background-color: blueviolet; */
+    float: inline-start;
+    padding-top: 4em;
+    margin-left: 1em
 }
 
 .main_head {
@@ -72,21 +62,38 @@ header {
     font-size: 2.2em;
 }
 
-
 .main_sponsor-content {
-    text-align: end;
-    font-size: .6em;
+    display: flex;
     line-height: 1.5em;
-    width: 90%;
-    /* background-color: blueviolet; */
-    margin: 5.2em auto auto auto;
-    justify-content: center;
 }
 
-.main_sponsor-imagotype .telephone {
-    width: 60px;
-    height: 50px;
-    margin-top: 2em;
+.main_sponsor-content p{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 2em;
+    justify-content: end;
+}
+
+.telephone-subtitle {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.telephone-price {
+    font-size: 1.2em;
+    font-weight: bolder;
+} 
+
+.telephone-ubication {
+    font-size: .7em
+}
+
+.telephone {
+    display: flex;
+    float: right;
+    width: 75px;
+    height: 70px;
 }
 
 .Navigation {
@@ -136,7 +143,7 @@ header {
 }
 
 main {
-    height: 800px;
+    height: 600px;
     margin: 1em;
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
@@ -146,13 +153,13 @@ main {
 .Sensationalist_Notes {
     position: relative;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
 }
 
 .section_one {
+    height: 320px;
     display: grid;
     grid-row-start: 1;
-    padding: 1em 0 1em 0;
     font-size: .85em;
     border-top: solid black;
 }
@@ -171,7 +178,24 @@ main {
 
 .section_two {
     border-top: solid black;
+    font-size: 1.4em;
+    padding-top: 1em;
 }
+
+.cary-grant {
+    width: 100px;
+    height: 125px;
+    float: left;
+    margin-right: 1em;
+}
+
+.link-to-interview-cary_grant {
+    display: flex;
+    height: 25px;
+    font-size: .6em;
+    align-items: center;
+}
+
 .Editorial {
     margin: 5px;
     position: relative;
