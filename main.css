@@ -1,35 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: solid rgba(255, 166, 0, 0.774) 1px;
-}
+    border: solid rgba(255, 166, 0, 0.774) 1px;}
 
 body {
     width: 100vw;
     height: 100%;
-    z-index: 1;
-}
+    z-index: 1;}
 
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    margin: 2em 3em 2em 2em;
-}
+    margin: 2em 3em 2em 2em;}
 
 .publishing_house-imagotype .imaginista {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: .8em;
     font-weight: bold;
-    float: left;
-}
+    float: left;}
 
-.publishing_house-imagotype img{
+.publishing_house-imagotype img {
     width: 5em;
     height: 6.5em;
-    float: inline-start;
-}
+    float: inline-start;}
 
 .publishing_house-slogan {
     font-size: .6em;
@@ -38,8 +35,7 @@ header {
     text-justify: inter-word;
     float: inline-start;
     padding-top: 4em;
-    margin-left: 1em
-}
+    margin-left: 1em }
 
 .main_head {
     text-align: center;
@@ -47,114 +43,94 @@ header {
     letter-spacing: .4em;
     border-top: solid black;
     border-bottom: solid black;
-    margin: auto;
-}
+    margin: auto; }
 
 .line {
     border-top: solid black;
     border-bottom: solid black;
     border-right: 0;
     border-left: 0;
-    margin: 4px;
-}
+    margin: 4px;}
 
 .hollywood {
-    font-size: 2.2em;
-}
+    font-size: 2.2em;}
 
 .main_sponsor-content {
     display: flex;
-    line-height: 1.5em;
-}
+    line-height: 1.5em;}
 
 .main_sponsor-content p{
     width: 100%;
     display: flex;
     align-items: end;
     padding-bottom: 2em;
-    justify-content: end;
-}
+    justify-content: end;}
 
 .telephone-subtitle {
     font-size: 1em;
-    font-weight: 200;
-}
+    font-weight: 200;}
 
 .telephone-price {
     font-size: 1.2em;
-    font-weight: bolder;
-} 
+    font-weight: bolder;} 
 
 .telephone-ubication {
-    font-size: .7em
-}
+    font-size: .7em}
 
 .telephone {
     display: flex;
     float: right;
     width: 75px;
-    height: 70px;
-}
+    height: 70px;}
 
 .Navigation {
     width: 96vw;
     height: 3vh;
-    margin: 1em;
-}
+    margin: 1em;}
 
 .Navigation ul {
     display: flex;
     justify-content: space-around; 
-    text-align: center;
-}
+    text-align: center;}
 
 .Navigation ul li {
     border-left: solid black;
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    padding-left: 1.5em ;
-}
+    padding-left: 1.5em ;}
 
 .Cinema_Marquee {
     display: inline-block;
-    /* background-color: darkorchid; */
     width: 96vw;
     height: 7vh;
-    /* position: relative; */
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    margin: 2vw;
-}
+    margin: 2vw;}
 
 .movies {
     width: 94vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center;}
 
 .Cinema_Marquee a:link, a:visited, a:active{
     text-decoration: none;
     font-size: .8em;
     justify-content: space-around;
-    color: black;
-}
+    color: black;}
 
 main {
-    height: 600px;
+    height: 500px;
     margin: 1em;
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
-    position: absolute;
-}
+    column-gap: 20px;
+    position: absolute;}
 
 .Sensationalist_Notes {
     position: relative;
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-}
+    grid-template-rows: 3fr 2fr 1fr;}
 
 .section_one {
     height: 320px;
@@ -162,46 +138,89 @@ main {
     grid-row-start: 1;
     font-size: .85em;
     border-top: solid black;
-}
+    padding-top: 1em;}
 
 .title-note {
-    font-size: 1.7em;
-}
+    font-size: 1.5em;}
 
 .greatkelly {
-    width: 120px;
-    height: 240px;
+    width: 105px;
+    height: 205px;
     float: right;
-    margin-top: 3em;
-    margin-left: .5em;
-}
+    margin-top: 3em;}
+
+.arrow-kate {
+    display: inline-flex;
+    align-items: flex-end;
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-size: .8em;}
 
 .section_two {
     border-top: solid black;
     font-size: 1.4em;
-    padding-top: 1em;
-}
+    padding-top: .5em;}
 
 .cary-grant {
-    width: 100px;
-    height: 125px;
+    width: 85px;
+    height: 105px;
     float: left;
-    margin-right: 1em;
-}
+    margin-right: 1em ;}
 
-.link-to-interview-cary_grant {
-    display: flex;
-    height: 25px;
-    font-size: .6em;
-    align-items: center;
-}
+.section_two_body {
+    font-weight: 400;
+    font-size: .7em;
+    position: relative;}
+
+.about {
+    font-size: .5em;
+    display: inline-flex;
+    position: relative;}
+
+.arrow-grant {
+    display: inline-flex;
+    padding-bottom: 2px;
+    height: 20px;
+    text-decoration: none;}
+
+.dream-lover {
+    font-family: 'Playball', cursive;
+    font-style: normal;
+    font-size: 2em;
+    margin: .5em;}
+
+.music-section {
+    background-color: rgba(5, 5, 5, 0.692);
+    color: whitesmoke;
+    display: inline-flex;
+    align-items: center;}
+
+.text-music {
+    width: 100%;}
+
+.click-music {
+    text-decoration: none;
+    font-style: normal;
+    font-size: .6em;}
+
+.listen {
+    color: whitesmoke;}
+
+.arrow-music {
+    height: 16px;
+    position: absolute;}
 
 .Editorial {
-    margin: 5px;
     position: relative;
+    background-color: yellowgreen;
+    border: solid black;
+    padding: 10px; }
+
+.franksinatra{
+    width: 100%;
+    height: auto;
 }
 
 .Glamour_News {
     margin: 5px;
-    position: relative;
-}
+    position: relative;}
