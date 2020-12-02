@@ -31,13 +31,21 @@ header {
     height: 6.5em;
     float: inline-start;}
 
+.boston, .chicago {
+    width: 170px;
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
 .publishing_house-slogan {
-    font-size: .6em;
-    line-height: 1.5em;
+    /* font-size: .6em; */
+    line-height: 1em;
+    /* font-weight: 800; */
     text-align: justify;
     text-justify: inter-word;
     float: inline-start;
-    padding-top: 4em;
+    /* padding-top: 4em; */
     margin-left: 1em }
 
 .main_head {
@@ -46,7 +54,8 @@ header {
     letter-spacing: .4em;
     border-top: solid black;
     border-bottom: solid black;
-    margin: auto; }
+    margin: auto;
+    margin-top: 0; }
 
 .line {
     border-top: solid black;
