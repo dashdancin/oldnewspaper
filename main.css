@@ -4,13 +4,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: solid rgba(255, 166, 0, 0.774) 1px;
+    /* border: solid rgba(255, 166, 0, 0.774) 1px; */
 } 
 
 body {
     width: 100vw;
     height: 100%;
-    z-index: 1;}
+    z-index: 1;
+}
 
 header {
     display: grid;
@@ -125,7 +126,8 @@ main {
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
     column-gap: 20px;
-    position: absolute;}
+    position: absolute;
+}
 
 .Sensationalist_Notes {
     position: relative;
@@ -148,7 +150,8 @@ main {
     width: 105px;
     height: 205px;
     float: right;
-    margin-top: 3em;}
+    margin-top: 3em;
+    margin-left: 1.3em;}
 
 .arrow-kate {
     display: inline-flex;
@@ -160,7 +163,8 @@ main {
 .section_two {
     border-top: solid black;
     font-size: 1.4em;
-    padding-top: .5em;}
+    padding-top: .5em;
+    margin-bottom: .5em;}
 
 .cary-grant {
     width: 85px;
@@ -171,12 +175,16 @@ main {
 .section_two_body {
     font-weight: 400;
     font-size: .7em;
-    position: relative;}
+    margin-top: 7px;
+    margin-bottom: 7px;
+    position: relative;
+    white-space: .3em;}
 
 .about {
     font-size: .5em;
     display: inline-flex;
-    position: relative;}
+    position: relative;
+    margin-top: 5px;}
 
 .arrow-grant {
     display: inline-flex;
@@ -268,6 +276,7 @@ main {
     font-weight: lighter;
     font-weight: bolder;
     height: 25%;
+    margin-bottom: 1.2em;
     background-image: url(./assets/francesita.png);
     background-size: 170px 140px;
     background-position: 100% 100%;
@@ -275,7 +284,6 @@ main {
 }
 
 .text_spot {
-    margin-top: 1em;
     margin-left: 10px;
     font-size: 1.2em;
 }
