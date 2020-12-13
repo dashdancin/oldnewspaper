@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     border: solid rgba(255, 166, 0, 0.774) 1px;
-    
 }
 
 body {
@@ -11,7 +10,6 @@ body {
     height: 100%;
     z-index: 1;
     background-color: turquoise;
-
 }
 
 main {
@@ -114,7 +112,7 @@ header {
 }
 
 main {
-    height: 600px;
+    height: 1000px;
     margin: 5px;
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
