@@ -1,53 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     border: solid rgba(255, 166, 0, 0.774) 1px;
 }
+=======
+    /* border: solid rgba(255, 166, 0, 0.774) 1px; */
+} 
+>>>>>>> cf82e248f249ec3c99ffeab646df7cbbbe8521d7
 
 body {
-    width: 98vw;
+    width: 100vw;
     height: 100%;
     z-index: 1;
+<<<<<<< HEAD
     background-color: turquoise;
+=======
+    overflow-x: hidden;
+>>>>>>> cf82e248f249ec3c99ffeab646df7cbbbe8521d7
 }
 
-main {
-    background-color: royalblue;
-}
-    
 header {
     display: grid;
-    grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
-    /* width: 94vw; */
-    margin: 1em;
-    background-color: yellow;
-}
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 2em 3em 2em 2em;}
 
-.publishing_house-imagotype img{
-    width: 4em;
-    height: 5em;
-    display: grid;
-    margin: auto;
-    display: inline-block;
-}
-
-.publishing_house-imagotype p {
+.publishing_house-imagotype .imaginista {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: .6em;
-    display: inline-block;
+    font-size: .8em;
     font-weight: bold;
-    margin-left: 1.5em;
+    float: left;}
+
+.publishing_house-imagotype img {
+    width: 5em;
+    height: 6.5em;
+    float: inline-start;}
+
+.boston, .chicago {
+    width: 170px;
+    position: absolute;
+    display: inline-flex;
+    justify-content: space-between;
 }
 
 .publishing_house-slogan {
-    size: 14em;
-    font-size: .6em;
-    line-height: 1.5em;
-    text-align: center;
-    margin: auto;
-}
+    /* font-size: .6em; */
+    line-height: 1em;
+    /* font-weight: 800; */
+    text-align: justify;
+    text-justify: inter-word;
+    float: inline-start;
+    /* padding-top: 4em; */
+    margin-left: 1em }
 
 .main_head {
     text-align: center;
@@ -56,101 +64,328 @@ header {
     border-top: solid black;
     border-bottom: solid black;
     margin: auto;
-}
+    margin-top: 0; }
+
+.line {
+    border-top: solid black;
+    border-bottom: solid black;
+    border-right: 0;
+    border-left: 0;
+    margin: 4px;}
+
+.hollywood {
+    font-size: 2.2em;}
 
 .main_sponsor-content {
-    text-align: center;
-    font-size: .7em;
-    margin: auto;
-}
+    display: flex;
+    line-height: 1.5em;}
 
-.main_sponsor-imagotype .telephone {
-    width: 60px;
-    height: 50px;
-    margin-top: 1em;
-}
+.main_sponsor-content p{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 2em;
+    justify-content: end;}
+
+.telephone-subtitle {
+    font-size: 1em;
+    font-weight: 200;}
+
+.telephone-price {
+    font-size: 1.2em;
+    font-weight: bolder;} 
+
+.telephone-ubication {
+    font-size: .7em}
+
+.telephone {
+    display: flex;
+    float: right;
+    width: 75px;
+    height: 70px;}
 
 .Navigation {
     width: 96vw;
     height: 3vh;
-    margin: 1em;
-}
+    margin: 1em;}
 
 .Navigation ul {
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-around; 
+    text-align: center;}
 
 .Navigation ul li {
+    border-left: solid black;
     text-decoration: none;
+    text-align: center;
     display: inline-block;
-}
+    padding-left: 1.5em ;}
 
 .Cinema_Marquee {
     display: inline-block;
-    /* background-color: darkorchid; */
     width: 96vw;
     height: 7vh;
-    /* position: relative; */
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    margin: 2vw;
-}
+    margin: 2vw;}
 
 .movies {
     width: 94vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: center;}
 
 .Cinema_Marquee a:link, a:visited, a:active{
     text-decoration: none;
     font-size: .8em;
     justify-content: space-around;
-}
+    color: black;}
 
 main {
+<<<<<<< HEAD
     height: 1000px;
     margin: 5px;
+=======
+    margin: 2em;
+>>>>>>> cf82e248f249ec3c99ffeab646df7cbbbe8521d7
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
+    column-gap: 20px;
     position: absolute;
 }
 
 .Sensationalist_Notes {
-    margin: 5px;
     position: relative;
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr;
-}
+    grid-template-rows: 3fr 2fr 1fr;
+    height: 660px;}
 
 .section_one {
+    height: 320px;
     display: grid;
     grid-row-start: 1;
-}
+    font-size: .85em;
+    border-top: solid black;
+    padding-top: 1em;}
 
-.section_one {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-/* .section_one p {
-    width: 30px;
-} */
+.title-note {
+    font-size: 1.5em;}
 
 .greatkelly {
-    width: 180px;
+    width: 105px;
+    height: 205px;
+    float: right;
+    margin-top: 3em;
+    margin-left: 1.3em;}
+
+.arrow-kate {
+    display: inline-flex;
+    align-items: flex-end;
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-size: .8em;}
+
+.section_two {
+    border-top: solid black;
+    font-size: 1.4em;
+    padding-top: .5em;
+    margin-bottom: .5em;}
+
+.cary-grant {
+    width: 85px;
+    height: 105px;
+    float: left;
+    margin-right: 1em ;}
+
+.section_two_body {
+    font-weight: 400;
+    font-size: .7em;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    position: relative;
+    white-space: .3em;}
+
+.about {
+    font-size: .5em;
+    display: inline-flex;
+    position: relative;
+    margin-top: 5px;}
+
+.arrow-grant {
+    display: inline-flex;
+    padding-bottom: 2px;
+    height: 20px;
+    text-decoration: none;}
+
+.dream-lover {
+    font-family: 'Playball', cursive;
+    font-style: normal;
+    font-size: 2em;
+    margin: .5em;}
+
+.music-section {
+    background-color: rgba(5, 5, 5, 0.692);
+    color: whitesmoke;
+    display: inline-flex;
+    align-items: center;}
+
+.text-music {
+    width: 100%;}
+
+.click-music {
+    text-decoration: none;
+    font-style: normal;
+    font-size: .6em;}
+
+.listen {
+    color: whitesmoke;}
+
+.arrow-music {
+    height: 16px;
+    position: absolute;}
+
+.Editorial {
+    position: relative;
+    border: solid black;
+    padding: 10px; 
+    height: 660px;
+    font-size: 1em;}
+
+.trending {
+    margin-top: .7em;
+    margin-bottom: .5em;
+    font-size: small;
+}
+
+.title-editorial {
+    font-size: 1.5em;
+    margin-bottom: .4em;
+}
+
+.editorial_text {
+    margin-bottom: .5em;
+}
+
+.mansion_image {
+    width: 70%;
+    height: 100px;
+    display: flex; 
+    float: start;
+    align-items: end;
+    margin-right: .7em;
+    margin-top: 1em;
+} 
+
+.mansion_text {
+    display: flex;
+    align-items: center;
+    font-size: .8em;
+}
+
+.franksinatra{
+    width: 100%;
     height: auto;
 }
 
-.Editorial {
-    margin: 5px;
-    position: relative;
+.Glamour_News p {
+    display: flex;
+    align-items: center;
 }
 
-.Glamour_News {
-    margin: 5px;
-    position: relative;
+.Glamour_News img {
+    width: 120px;
+    height: auto;
+    margin: 10px;
+}
+.channel_spot {
+    background-color: rgba(212, 212, 212, 0.438);
+    font-weight: lighter;
+    font-weight: bolder;
+    height: 25%;
+    margin-bottom: 1.2em;
+    background-image: url(./assets/francesita.png);
+    background-size: 170px 140px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.text_spot {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.text_spot2 {
+    margin-left: 1em;
+    font-size: 2em;
+}
+
+.text_spot3 {
+    margin-left: 7em;
+    margin-bottom: 1.5em;
+    font-size: .8em;
+}
+
+.bottom_buy {
+    margin-left: 1em;
+    width: 140px;
+    height: 30px;
+    background-color:rgb(26, 26, 26);
+}
+
+.bottom_buy a {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.note_gossip {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.form-suscribe {
+    display: block;
+    margin-top: 30px;
+    font-size: 1.1em;
+    line-height: 1em;
+}  
+
+.form-title {
+    font-weight: 600;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.form-subtitle {
+    font-weight: 400;
+    font-size: .8em;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.sign {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.email {
+    width: 100%;
+    height: 30px;
+    border-top: solid black;
+    border-bottom: solid black;
+    text-align: center;
+    margin-bottom: 15px;
 }
