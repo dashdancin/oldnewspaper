@@ -154,26 +154,28 @@ main {
     padding-top: 1em;}
 
 .title-note {
-    font-size: 1.5em;}
+    font-size: 1.4em;}
 
 .greatkelly {
     width: 105px;
-    height: 205px;
+    height: 220px;
     float: right;
-    margin-top: 3em;
-    margin-left: 1.3em;}
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 3em;}
 
 .arrow-kate {
     display: inline-flex;
     align-items: flex-end;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
     text-decoration: none;
     font-size: .8em;}
 
 .section_two {
     border-top: solid black;
-    font-size: 1.4em;
-    padding-top: .5em;
+    font-size: 1.2em;
+    /* margin-top: 1em; */
+    padding-top: 1em;
     margin-bottom: .5em;}
 
 .cary-grant {
@@ -214,20 +216,18 @@ main {
     display: inline-flex;
     align-items: center;}
 
-.text-music {
-    width: 100%;}
-
 .click-music {
     text-decoration: none;
     font-style: normal;
     font-size: .6em;}
 
 .listen {
-    color: whitesmoke;}
+    color: whitesmoke;} 
 
 .arrow-music {
     height: 16px;
-    position: absolute;}
+    position: absolute;
+    padding-bottom: .1em;}
 
 .Editorial {
     position: relative;
@@ -238,27 +238,26 @@ main {
 
 .trending {
     margin-top: .7em;
-    margin-bottom: .5em;
     font-size: small;
 }
 
 .title-editorial {
-    font-size: 1.5em;
-    margin-bottom: .4em;
+    font-size: 2em;
+    margin: 0 2em .5em 2em;
 }
 
 .editorial_text {
-    margin-bottom: .5em;
+    margin-bottom: 1.2em;
+    font-size: .9em;
 }
 
 .mansion_image {
     width: 70%;
-    height: 100px;
+    height: 110px;
     display: flex; 
     float: start;
     align-items: end;
     margin-right: .7em;
-    margin-top: 1em;
 } 
 
 .mansion_text {
@@ -269,7 +268,7 @@ main {
 
 .franksinatra{
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 
 .Glamour_News p {
