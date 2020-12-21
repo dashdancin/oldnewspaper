@@ -45,6 +45,7 @@ header {
     display: inline-block;
     text-align: justify;
     text-justify: inter-word;
+    /* revisar la siguiente linea */
     float: right;
     /* padding-top: 4em; */
     margin-left: 1em }
@@ -251,19 +252,33 @@ main {
     font-size: .9em;
 }
 
+.mansions {
+    display: grid;
+    grid-template-columns: 60% auto; 
+}
+
 .mansion_image {
-    width: 70%;
+    width: 100%;
     height: 110px;
     display: flex; 
     float: start;
     align-items: end;
-    margin-right: .7em;
 } 
 
+.mansion-parragraph {
+        grid-column: 2;
+        display: grid;
+        grid-template-rows: 60% auto;
+}
+
 .mansion_text {
+    margin-left: 2em;
+    font-size: .9em;
+}
+
+.square {
     display: flex;
-    align-items: center;
-    font-size: .8em;
+    justify-self: center;
 }
 
 .franksinatra{
