@@ -256,68 +256,54 @@ main {
     position: absolute;
     padding-bottom: .1em;}
 
-.Editorial {
+.editorial {
     position: relative;
     border: solid black;
     padding: 10px; 
     height: 660px;
     font-size: 1em;}
 
-.trending {
-    margin-top: .7em;
-    font-size: small;
-}
-
-.title-editorial {
-    font-size: 2em;
-    margin: 0 2em .5em 2em;
-}
-
-.editorial_text {
-    margin-bottom: 1.2em;
-    font-size: .9em;
-}
-
-.mansions {
-    display: grid;
-    grid-template-columns: 60% auto; 
-}
-
-.mansion_image {
+.editorial_image {
     width: 100%;
-    height: 110px;
-    display: flex; 
-    float: start;
-    align-items: end;
-} 
+    height: 50%;}
 
-.mansion-parragraph {
-        grid-column: 2;
-        display: grid;
-        grid-template-rows: 60% auto;
-}
+.editorial_target {
+    margin-top: .7em;}
 
-.mansion_text {
-    margin-left: 2em;
-    font-size: .9em;
-}
+.editorial_headline {
+    font-size: 1.4em;
+    margin: 0 2em 1em 2em;}
 
-.square {
+.editorial_body {
+    margin-bottom: 2.2em;
+    font-size: 1.2em;}
+
+.section_hook--image {
+    width: 450px;
+    height: 100px;
+    float: left;
     display: flex;
-    justify-self: center;
-}
+    margin-right: 1em;
+    align-self: flex-end;}
 
-.franksinatra{
-    width: 100%;
-    height: 50%;
-}
+.section_hooks--body {
+    margin-left: 2em;
+    font-size: 1.1em;
+    margin-right: 1em;
+    margin-bottom: .4em;}
 
-.Glamour_News p {
+.section_hooks--icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: .5em;
+    height: 40px;}
+
+.glamour p {
     display: flex;
     align-items: center;
 }
 
-.Glamour_News img {
+.glamour img {
     width: 120px;
     height: auto;
     margin: 10px;
