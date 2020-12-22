@@ -11,43 +11,40 @@ body {
     width: 100vw;
     height: 100%;
     z-index: 1;
-    overflow-x: hidden;
-}
+    overflow-x: hidden;}
 
 header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    margin: 2em 3em 2em 2em;}
+    margin: 2em 2em 2em 2em;}
 
-.publishing_house-imagotype .imaginista {
+.branding .branding_name {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-size: .8em;
     font-weight: bold;
     float: left;}
 
-.publishing_house-imagotype img {
+.branding img {
     width: 5em;
     height: 6.5em;
     float: inline-start;}
 
-.boston, .chicago {
+.branding_slogan {
+    line-height: 1em;
+    display: inline-block;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: .5em; }
+
+.branding_slogan--city1, .branding_slogan--city2 {
     width: 170px;
     position: absolute;
     display: inline-flex;
-    justify-content: space-between;
-}
-
-.publishing_house-slogan {
-    line-height: 1em;
-    display: inline-block;
-    text-align: justify;
-    text-justify: inter-word;
-    /* revisar la siguiente linea */
-    float: right;
-    margin-left: .5em; }
-
-.main_head {
+    justify-content: space-between;}
+    
+.header_title {
     text-align: center;
     font-family: 'Limelight';
     letter-spacing: .4em;
@@ -56,22 +53,21 @@ header {
     margin: auto;
     margin-top: 0; }
 
-.line {
+.header_title--container {
     border-top: solid black;
     border-bottom: solid black;
     border-right: 0;
     border-left: 0;
     margin: 4px;}
 
-.hollywood {
+.header_title--main {
     font-size: 2.2em;}
 
-.main_sponsor-content {
+.header_sponsor {
     display: grid;
-    grid-template-columns: 60% auto;
-}
+    grid-template-columns: 60% auto;}
 
-.main_sponsor-content p{
+.header_sponsor--container{
     width: 100%;
     display: flex;
     align-items: end;
@@ -79,36 +75,26 @@ header {
     margin-top: 0;
     justify-content: end;}
 
-.telephone-subtitle {
-    font-size: 1em;
-    font-weight: 200;}
-
-.telephone-price {
-    font-size: 1em;
-    font-weight: bolder;} 
-
-.telephone-ubication {
+.header_sponsor--name {
     font-size: .7em}
 
-.telephone {
+.header_sponsor img {
     display: flex;
     float: right;
     margin-left: 4px;
     width: 55px;
     height: 50px;}
 
-.line-suscription {
+.suscription {
     display: grid;
     grid-column: end;
     width: 90px;
     height: 90px;
-    /* position: absolute; */
     background-color: rgb(61, 61, 61);
     color: whitesmoke;
-    font-weight: 800;
-}
+    font-weight: 800;}
     
-.line1 {
+.suscription_price {
     width: 50%;
     height: 50%;
     position: absolute;
@@ -116,10 +102,9 @@ header {
     color: whitesmoke;
     padding-left: 5px;
     text-align: center; 
-    font-size: 2.2em;
-}
+    font-size: 2.2em;}
 
-.line2 {
+.suscription_plan {
     position: relative;
     width: 50%;
     left: 50%;
@@ -129,37 +114,35 @@ header {
     text-align: start;
     color: whitesmoke;
     align-self: flex-start;
-    align-items: center;
-}
+    align-items: center;}
 
-.line3 {
+.suscription_mode {
     width: 100%;
     /* top: 0%; */
     height: 40px;
     margin-top: 15px;
     font-size: 1.5em;
     color: whitesmoke;
-    text-align: center;
-}
+    text-align: center;}
 
-.Navigation {
+.navigation {
     width: 96vw;
     height: 3vh;
     margin: 1em;}
 
-.Navigation ul {
+.navigation ul {
     display: flex;
     justify-content: space-around; 
     text-align: center;}
 
-.Navigation ul li {
+.navigation ul li {
     border-left: solid black;
     text-decoration: none;
     text-align: center;
     display: inline-block;
     padding-left: 1.5em ;}
 
-.Cinema_Marquee {
+.carousel{
     display: inline-block;
     width: 96vw;
     height: 7vh;
@@ -172,7 +155,7 @@ header {
     justify-content: space-between;
     align-items: center;}
 
-.Cinema_Marquee a:link, a:visited, a:active{
+.carousel a:link, a:visited, a:active{
     text-decoration: none;
     font-size: .8em;
     justify-content: space-around;
@@ -183,10 +166,9 @@ main {
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
     column-gap: 20px;
-    position: absolute;
-}
+    position: absolute;}
 
-.Sensationalist_Notes {
+.sensationalist {
     position: relative;
     display: grid;
     grid-template-rows: 3fr 2fr 1fr;
@@ -200,10 +182,10 @@ main {
     border-top: solid black;
     padding-top: 1em;}
 
-.title-note {
+.section_one--title {
     font-size: 1.4em;}
 
-.greatkelly {
+.section_one img:first-child {
     width: 105px;
     height: 220px;
     float: right;
@@ -211,7 +193,7 @@ main {
     margin-bottom: 1em;
     margin-top: 3em;}
 
-.arrow-kate {
+.section_one a {
     display: inline-flex;
     align-items: flex-end;
     padding-bottom: 10px;
@@ -221,17 +203,16 @@ main {
 .section_two {
     border-top: solid black;
     font-size: 1.2em;
-    /* margin-top: 1em; */
     padding-top: 1em;
     margin-bottom: .5em;}
 
-.cary-grant {
+.section_two img:first-child{
     width: 85px;
     height: 105px;
     float: left;
     margin-right: 1em ;}
 
-.section_two_body {
+.section_two--body {
     font-weight: 400;
     font-size: .7em;
     margin-top: 7px;
@@ -239,39 +220,38 @@ main {
     position: relative;
     white-space: .3em;}
 
-.about {
-    font-size: .5em;
-    display: inline-flex;
-    position: relative;
-    margin-top: 5px;}
-
-.arrow-grant {
+.section_two--link {
     display: inline-flex;
     padding-bottom: 2px;
     height: 20px;
     text-decoration: none;}
 
-.dream-lover {
-    font-family: 'Playball', cursive;
-    font-style: normal;
-    font-size: 2em;
-    margin: .5em;}
-
-.music-section {
+.section_two--link p{
+    font-size: .6em;
+    display: inline-flex;
+    position: relative;
+    margin-top: 5px;
+    text-decoration: none;}
+ 
+.section_tree {
     background-color: rgba(5, 5, 5, 0.692);
     color: whitesmoke;
     display: inline-flex;
     align-items: center;}
 
-.click-music {
+.section_tree--title {
+    font-family: 'Playball', cursive;
+    font-style: normal;
+    font-size: 1.5em;
+    margin: .5em;}
+
+.section_tree a {
     text-decoration: none;
     font-style: normal;
-    font-size: .6em;}
+    font-size: .6em;
+    color: whitesmoke}
 
-.listen {
-    color: whitesmoke;} 
-
-.arrow-music {
+.section_tree a > img {
     height: 16px;
     position: absolute;
     padding-bottom: .1em;}
