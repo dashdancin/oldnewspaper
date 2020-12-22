@@ -174,7 +174,7 @@ main {
     grid-template-rows: 3fr 2fr 1fr;
     height: 660px;}
 
-.section_one {
+.sensationalist_section-1 {
     height: 320px;
     display: grid;
     grid-row-start: 1;
@@ -182,37 +182,36 @@ main {
     border-top: solid black;
     padding-top: 1em;}
 
-.section_one--title {
+.sensationalist_section-1--title {
     font-size: 1.4em;}
 
-.section_one img:first-child {
-    width: 105px;
-    height: 220px;
+.sensationalist_section-1 img:first-child {
     float: right;
     margin-left: 1em;
     margin-bottom: 1em;
     margin-top: 3em;}
 
-.section_one a {
+.sensationalist_section-1 a {
     display: inline-flex;
     align-items: flex-end;
     padding-bottom: 10px;
     text-decoration: none;
-    font-size: .8em;}
+    font-size: .9em;}
 
-.section_two {
+.sensationalist_section-2 {
     border-top: solid black;
     font-size: 1.2em;
     padding-top: 1em;
+    margin-top: 1em;
     margin-bottom: .5em;}
 
-.section_two img:first-child{
+.sensationalist_section-2 img:first-child{
     width: 85px;
     height: 105px;
     float: left;
     margin-right: 1em ;}
 
-.section_two--body {
+.sensationalist_section-2--body {
     font-weight: 400;
     font-size: .7em;
     margin-top: 7px;
@@ -220,38 +219,38 @@ main {
     position: relative;
     white-space: .3em;}
 
-.section_two--link {
+.sensationalist_section-2--link {
     display: inline-flex;
     padding-bottom: 2px;
     height: 20px;
     text-decoration: none;}
 
-.section_two--link p{
+.sensationalist_section-2--link p{
     font-size: .6em;
     display: inline-flex;
     position: relative;
     margin-top: 5px;
     text-decoration: none;}
  
-.section_tree {
+.sensationalist_section-3 {
     background-color: rgba(5, 5, 5, 0.692);
     color: whitesmoke;
     display: inline-flex;
     align-items: center;}
 
-.section_tree--title {
+.sensationalist_section-3--title {
     font-family: 'Playball', cursive;
     font-style: normal;
     font-size: 1.5em;
-    margin: .5em;}
+    margin: auto 1.5em auto 1em;}
 
-.section_tree a {
+.sensationalist_section-3 a {
     text-decoration: none;
     font-style: normal;
     font-size: .6em;
     color: whitesmoke}
 
-.section_tree a > img {
+.sensationalist_section-3 a > img {
     height: 16px;
     position: absolute;
     padding-bottom: .1em;}
@@ -272,43 +271,42 @@ main {
 
 .editorial_headline {
     font-size: 1.4em;
-    margin: 0 2em 1em 2em;}
+    margin: 0em 1em 1em 1em;}
 
 .editorial_body {
-    margin-bottom: 2.2em;
-    font-size: 1.2em;}
+    margin: 0em 1em 2em 1.5em;
+    font-size: 1em;}
 
-.section_hook--image {
+.editorial_section-hook--image {
     width: 450px;
-    height: 100px;
+    height: 130px;
     float: left;
     display: flex;
     margin-right: 1em;
     align-self: flex-end;}
 
-.section_hooks--body {
+.editorial_section-hook--body {
     margin-left: 2em;
-    font-size: 1.1em;
-    margin-right: 1em;
+    font-size: .9em;
+    margin-right: .5em;
     margin-bottom: .4em;}
 
-.section_hooks--icon {
+.section_section-hook--icon {
     display: flex;
     justify-content: flex-end;
-    margin-right: .5em;
+    margin-right: 1.5em;
     height: 40px;}
 
-.glamour p {
+.hollywood-news p {
     display: flex;
-    align-items: center;
-}
+    align-items: center;}
 
-.glamour img {
+.hollywood-news img {
     width: 120px;
     height: auto;
-    margin: 10px;
-}
-.channel_spot {
+    margin: 10px;}
+
+.spot-channel {
     background-color: rgba(212, 212, 212, 0.438);
     font-weight: lighter;
     font-weight: bolder;
@@ -317,72 +315,69 @@ main {
     background-image: url(./assets/francesita.png);
     background-size: 170px 140px;
     background-position: 100% 100%;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat;}
 
-.text_spot {
+.spot-channel_body-1 {
     margin-left: 10px;
     font-size: 1.2em;
-}
+    padding-top: 20px;}
 
-.text_spot2 {
+.spot-channel_body-2 {
     margin-left: 1em;
-    font-size: 2em;
-}
+    font-size: 2em;}
 
-.text_spot3 {
+.spot-channel_body-3 {
     margin-left: 7em;
     margin-bottom: 1.5em;
-    font-size: .8em;
-}
+    font-size: .8em;}
 
-.bottom_buy {
+.spot-channel_bottom-buy {
     margin-left: 1em;
     width: 140px;
     height: 30px;
-    background-color:rgb(26, 26, 26);
-}
+    background-color:rgb(26, 26, 26);}
 
-.bottom_buy a {
+.spot-channel_bottom-buy a {
     color: white;
     text-decoration: none;
-    font-weight: 800;
-}
+    font-weight: 800;}
 
-.note_gossip {
+.cinema_section-2 {
     border-top: 2px solid black;
-    border-bottom: 2px solid black;
-}
+    border-bottom: 2px solid black;}
 
-.form-suscribe {
+.form_suscribe {
     display: block;
     margin-top: 30px;
     font-size: 1.1em;
-    line-height: 1em;
-}  
+    line-height: 1em;}  
 
-.form-title {
+.form_title {
     font-weight: 600;
     font-size: 1em;
     margin-left: 10px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px;}
 
-.form-title {
+.form_title {
     font-weight: 600;
     font-size: 1em;
-    margin-left: 10px;
-}
+    margin-left: 10px;}
 
-.form-subtitle {
+.form_subtitle {
     font-weight: 400;
     font-size: .8em;
     margin-left: 10px;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px;}
 
+.form_email {
+    width: 100%;
+    height: 30px;
+    border-top: solid black;
+    border-bottom: solid black;
+    text-align: center;
+    margin-bottom: 15px;}
 
-.sign {
+.form_sign-up-bottom {
     background-color: rgb(26, 26, 26);
     color: white;
     width: 100%;
@@ -390,14 +385,4 @@ main {
     font-weight: bold;
     display: block;
     margin-right: auto;
-    margin-left: auto;
-}
-
-.email {
-    width: 100%;
-    height: 30px;
-    border-top: solid black;
-    border-bottom: solid black;
-    text-align: center;
-    margin-bottom: 15px;
-}
+    margin-left: auto;}
