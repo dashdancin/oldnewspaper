@@ -316,7 +316,7 @@ main {
 
 .sensationalist_section-1 img:first-child {
     float: right;
-    margin-left: 1em;
+    margin-left: .5em;
     margin-bottom: 1em;
     margin-top: 3em;}
 
@@ -360,7 +360,7 @@ main {
     position: relative;
     margin-top: 5px;
     text-decoration: none;}
- 
+
 .sensationalist_section-3 {
     background-color: rgba(5, 5, 5, 0.692);
     color: whitesmoke;
@@ -389,7 +389,8 @@ main {
     border: solid black;
     padding: 10px; 
     height: 660px;
-    font-size: 1em;}
+    font-size: 1em;
+    margin-bottom: 30px;}
 
 .editorial_image {
     width: 100%;
@@ -399,11 +400,11 @@ main {
     margin-top: .7em;}
 
 .editorial_headline {
-    font-size: 1.4em;
-    margin: 0em 1em 1em 1em;}
+    font-size: 1.2em;
+    margin: 0em 1em .5em 1em;}
 
 .editorial_body {
-    margin: 0em 1em 2em 1.5em;
+    margin: 0em 1em 1.5em 1em;
     font-size: 1em;}
 
 .editorial_section-hook--image {
@@ -415,10 +416,10 @@ main {
     align-self: flex-end;}
 
 .editorial_section-hook--body {
-    margin-left: 2em;
-    font-size: .9em;
+    margin-left: 1em;
+    font-size: 14px;
     margin-right: .5em;
-    margin-bottom: .4em;}
+    margin-bottom: 10px;}
 
 .section_section-hook--icon {
     display: flex;
@@ -477,7 +478,7 @@ main {
 
 .form_suscribe {
     display: block;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1.1em;
     line-height: 1em;}  
 
