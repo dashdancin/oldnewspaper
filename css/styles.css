@@ -244,6 +244,46 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, black 100%);
     -o-transform:scale(1.2); 
 }
 
+.search{
+    position: relative;
+    padding: 5px;
+}
+
+.search input{
+    display: flex;
+    width: 0;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all .9s ease;
+}
+
+.search-btn{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background: rgb(61, 61, 61);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 50%;
+    cursor: pointer;}
+
+.search:hover input{
+width: 180px;
+}
+
+.search input:focus{
+    width: 180;
+}
+
 .carousel a:link, a:visited, a:active{
     text-decoration: none;
     font-size: .8em;
@@ -401,7 +441,7 @@ main {
     font-weight: bolder;
     height: 25%;
     margin-bottom: 1.2em;
-    background-image: url(./assets/francesita.png);
+    background-image: url(../assets/francesita.png);
     background-size: 170px 140px;
     background-position: 100% 100%;
     background-repeat: no-repeat;}
