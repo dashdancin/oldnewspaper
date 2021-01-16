@@ -323,10 +323,17 @@ main {
 .sensationalist_section-1 a {
     display: inline-flex;
     align-items: flex-end;
-    padding-bottom: 10px;
     text-decoration: none;
     font-size: .9em;}
 
+.sensationalist_section-1 a > b {
+    padding-bottom: 5px;
+}
+
+.sensationalist_section-1 a > i {
+    color: black;
+    font-size: 25px;
+}
 .sensationalist_section-2 {
     border-top: solid black;
     font-size: 1.2em;
@@ -355,11 +362,17 @@ main {
     text-decoration: none;}
 
 .sensationalist_section-2--link p{
+    color: black;
     font-size: .6em;
     display: inline-flex;
     position: relative;
     margin-top: 5px;
     text-decoration: none;}
+
+.sensationalist_section-2--link i{
+    font-size: 25px;
+    color: black;
+}
 
 .sensationalist_section-3 {
     background-color: rgba(5, 5, 5, 0.692);
@@ -376,13 +389,14 @@ main {
 .sensationalist_section-3 a {
     text-decoration: none;
     font-style: normal;
-    font-size: .6em;
-    color: whitesmoke}
+    font-size: .8em;
+    color: whitesmoke;}
 
-.sensationalist_section-3 a > img {
-    height: 16px;
-    position: absolute;
-    padding-bottom: .1em;}
+.sensationalist_section-3 a > i {
+    font-size: 25px;
+    color:whitesmoke;
+}
+
 
 .editorial {
     position: relative;
